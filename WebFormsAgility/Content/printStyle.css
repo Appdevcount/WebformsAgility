@@ -1,0 +1,61 @@
+﻿
+    /*margin:0px;*/
+    /*line-height:1.2;*/
+
+
+
+
+/*.TbleChecboxes {
+
+    margin-left: 37px; 
+    margin-top: 14px;
+}*/
+
+
+/*@media print
+    {
+    .r{
+        background-color:aquamarine;
+        color:blue;
+    }
+}*/
+
+
+
+div .catg {
+    border-width: 5px;
+    border-radius: 1px;
+    border: 1px solid;
+}
+
+
+div .catgTopB {
+    border-width: 5px;
+    border-radius: 1px;
+    border-top: 1px solid;
+}
+
+
+div .catgAdjust {
+    border-width: 5px;
+    border-radius: 1px;
+    border-top: 1px solid;
+}
+
+
+.PadArr {
+
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+tbody > tr > td {
+    height: 20px;
+    padding: 0px;
+    border-top: 0px;
+}
+
+body{
+    font-weight:100;
+    font-family:'Times New Roman';
+         }
