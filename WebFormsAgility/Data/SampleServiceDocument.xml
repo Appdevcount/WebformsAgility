@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!--<!DOCTYPE test SYSTEM "file:///C:/test/test.txt">-->
+<!--<!DOCTYPE XML [<!ENTITY win SYSTEM "file:///C:/test/test.txt">]>-->
+<!--<XML>&win;</XML>-->
+<XML id="XMLServiceDocument">
+
+   <servicedocument>
+      <PerformanceAnalysis>
+         <stage id="submit" startedat="" completedat="16:27:50:281" period="" />
+         <stage id="processing" startedat="16:27:50:281" completedat="16:27:50:392" period="0:0:111" />
+         <stage id="transformation" startedat="" completedat="" period="" />
+         <stage id="loading" startedat="0" completedat="16:27:47:428" period="1518442067428" />
+      </PerformanceAnalysis>
+      <actionservice>
+         <actioncontrol fingerprinttoken="" userid="Nawaf.alomar" password="" authenticated="1" roleid="" pageid="CurrencyReportFormVwPg" profileid="" templateid="" actionid="ViewCRFDetails" actiontype="X" actioncriteria="[CRFDetails].[CRFDetailsId]=N#3914754#39" nextactionid="" 
+                        nextactioncriteria="" continue="0" listpagesizes="" listpage="" previouspageid="" previousactionid="" previousactioncriteria="" previousprofileid="" actionpageid="CurrencyReportFormVwPg" passwordreset="" passwordlastresetdate="" passworddaystoexpire="" actioncallfilter="" smartclient="" twofactorauthcode="" />
+         <exception code="" type="" message="" context_value="" sourcecode="" stack="">
+            <details />
+            <actorexceptions />
+         </exception>
+      </actionservice>
+      <user RowNumber="1" OwnerLocId="712358" LogInPortName="KUWAIT INTNL.AIRPORT" LogInPortId="8998" DepartmentId="219" SectionId="363" ThemeId="Green" UserType="c" StateId="PeopleCreatedState" selected="" OrganizationId="29590" UserId="Nawaf.alomar" LanguageId="eng" LastLogOnTime="2018-02-12T16:11:50+03:00" Password="" LogInPortNameAra="مطار الكويت الدولي" CreatedBy="ma.ali" Direction="ltr" PersonalId="77579" OrganizationType="Customs" CultureId="eng" FileNo="13711" FirstName="Nawaf" Roles="" message="" AccountStatus="y" StdLocationTypeTypeId="33223958" OpenTime="2018-02-12T16:26:53.277+03:00" UnitId="" Groups="" Token="" TimeZone="" TwoFactorAuth=""/>
+      <user RowNumber="1" OwnerLocId="712358" LogInPortName="KUWAIT INTNL.AIRPORT" LogInPortId="8998" DepartmentId="219" SectionId="363" ThemeId="Green" UserType="c" StateId="PeopleCreatedState" selected="" OrganizationId="29590" UserId="Nawaf.alomar" LanguageId="eng" LastLogOnTime="2018-02-12T16:11:50+03:00" Password="" LogInPortNameAra="مطار الكويت الدولي" CreatedBy="ma.ali" Direction="ltr" PersonalId="77579" OrganizationType="Customs" CultureId="eng" FileNo="13711" FirstName="Nawaf" Roles="" message="" AccountStatus="y" StdLocationTypeTypeId="33223958" OpenTime="2018-02-12T16:26:53.277+03:00" UnitId="" Groups="" Token="" TimeZone="" TwoFactorAuth="">
+         <AllowedMenuActions />
+         <AllowedPageActions />
+      </user>
+      <pagelets>
+         <xpagelet id="CurrencyReportFormVwPg" Classes="Form[@id=#39HomePage#39]" type="" cultureid="" LanguageId="eng" dir="ltr" availHeight="" availWidth="" MinAcceptableYear="1900" user_dateformat="dmy" user_dateseparator="-" user_decimalchar="." xml_dateformat="ymd" xml_dateseparator="-" xml_decimalchar="." xml_date="longdate" WindowStamp="" BaseFormName="LatestUpdatesVwPg" BaseFormCtrlIndex="" />
+      </pagelets>
+      <data>
+         <CRFDetailsrecords PageSize="1" PageCount="1" PageNumber="1" TotalRecordsFetched="1" SortBy="[CRFDetails].[CreatedDate]" SortType="desc">
+            <CRFDetails RowNumber="1" DateCreateddesc="2018-02-12T16:11:59.533+03:00" ForInvestment="0" ForTherapy="0" FormNumber="14755/2018" OtherReasons="0" OwnerLocId="712360" CRFYear="2018" CreatedBy="mohammed.awad" ToPurchageGood="0" FormDate="2018-02-12T00:00:00+03:00" OwnerOrgId="29590" ForTourism="0" ForEducation="0" selected="" CRFTranType="i" CreatedDate="2018-02-12T16:11:59.533+03:00" CPortCode="" CRFPassengerContactId="791" PassengerDetailId="3573" CRFPSponsorAddressId="293" SponsorDetailId="834" CRFPSponsorContactId="292" EntryPort="6" StateId="CRFDetailsModifiedState" ComingFrom="5228" OpenTime="2018-02-12T16:27:50.353+03:00" CRFDetailsId="14754" Type="" VehicleCity="" Color="" InspectorShift="" Remarks="" Model="" PlateNumber="" VoyageNo="" Amount="" YearOfManufacture="" CarrierName="" CRFCurrencies="" FormTime="" InspectorName="" MeansOfTransport="" CRFPassengerKuwaitAddId="" CRFPassengerPassportId="" CRFPassengerResidenceAddId="" VehicleNationality="" Hour="0" Minute="0">
+               <CRFCurrenciesrecords PageSize="20" PageCount="0" PageNumber="1" TotalRecordsFetched="0" SortBy="[CRFCurrencies].[Amount]" SortType="DESC" />
+            </CRFDetails>
+            <Portsrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <Ports OwnerOrgId="29588" OwnerLocId="724012" IsLocalPort="y" StateId="CPortSitesCreatedState" LocationId="6" Description="Saad Al Abdullah Airport Inspection" LocationCode="ASA" LocalDescription="Air Port Customs / Saad Al Abdullah Airport Inspection" Name="Saad Al Abdullah Airport Inspection" CreatedBy="mm.sathappan" ExitPoint="0" selected="" ParentId="5150" LocationTypeId="33223367" LocationTypeTypeId="33223958" OpenTime="2018-02-12T16:27:50.367+03:00" PortSites="" UNCode="" StdLocationTypeTypeId="" />
+            </Portsrecords>
+            <CFCountriesrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CFCountries OwnerOrgId="29588" StateId="CountryModifiedState" Name="Saudi Arabia" CreatedBy="MicroClear" LocationId="5228" UNCode="SA" LocationCode="SA" selected="" Description="Saudi Arabia" LocalDescription="السعودية" CountryCode="112" IsLocal="0" CountryNumber="2" LocationTypeId="1001" OpenTime="2018-02-12T16:27:50.37+03:00" City="" Ports="" OwnerLocId="" />
+            </CFCountriesrecords>
+            <CRFPassengerDetailsrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CRFPassengerDetails FamilyName="tse" GrandfatherName="test" Gender="M" Name="Test" Job="dfd" CivilId="432432324323232" LastName="test" selected="" CreatedBy="mohammed.awad" KWCivilId="123123213123123" OwnerLocId="712360" DateOfBirth="2018-02-12T00:00:00+03:00" CRFPassengerDetailId="3573" FatherName="tests" OwnerOrgId="29590" StateId="CRFPassengerDetailsCreatedState" OpenTime="2018-02-12T16:27:50.38+03:00" CRFPassengerResidenceAddress="" CRFPassengerContacts="" CRFPassengerKuwaitAddress="" ResidenceNo="" CRFPassengerPassports="" CRFDetailsId="" />
+            </CRFPassengerDetailsrecords>
+            <CRFPassengerSponsorsrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CRFPassengerSponsors SponsorName3="432432" OwnerOrgId="29590" CRFPassengerSponsorId="834" selected="" SponsorName1="324324" SponsorName2="32432432" CreatedBy="mohammed.awad" OwnerLocId="712360" TradingType="4324324" SponsorName4="42343243" StateId="CRFSponsorsCreatedState" OpenTime="2018-02-12T16:27:50.387+03:00" Building="" Gadah="" TelephoneContact="" Others="" Area="" CRFPassengerSponsorAddress="" Unit="" Section="" Street="" CRFSponsorContacts="" ResidenceNumber="" City="" SponsorNationality="" BusinessNumber="" CRFDetailsId="" />
+            </CRFPassengerSponsorsrecords>
+            <CRFPassengerContactsrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CRFPassengerContacts BusinessNumber="bbbbbbbbb" StateId="CRFPassengerContactsModifiedState" ResidenceNumber="qqqqqqqqqqqq" OwnerOrgId="29590" CRFPassengerContactId="791" InsertedDate="2018-02-12T16:09:54+03:00" Other="wwwwwwwwwwww" OwnerLocId="712360" selected="" CreatedBy="mohammed.awad" MobileNumber="324" CRFPassengerDetailId="3573" OpenTime="2018-02-12T16:27:50.39+03:00" />
+            </CRFPassengerContactsrecords>
+            <CRFSponsorContactsrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CRFSponsorContacts selected="" BusinessNumber="3454354353" InsertedDate="2018-02-12T16:15:55+03:00" CreatedBy="mohammed.awad" ResidenceNumber="gfhg" CRFSponsorContactId="292" Other="hgfhgfhfh" OwnerLocId="712360" OwnerOrgId="29590" MobileNumber="111111111111111" CRFPassengerSponsorId="834" StateId="CRFSponsorContactsCreatedState" OpenTime="2018-02-12T16:27:50.407+03:00" />
+            </CRFSponsorContactsrecords>
+            <CRFPassengerSponsorAddressrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+               <CRFPassengerSponsorAddress City="hyfdgg45" InsertedDate="2018-02-12T16:16:19+03:00" OwnerOrgId="29590" Area="354354354" Unit="rt" CreatedBy="mohammed.awad" OwnerLocId="712360" Building="dgffd456456" Gadah="fdg345" Street="fdfdgdfertr" CRFPassSponsorAddId="293" selected="" Section="fdg4354" CRFPassengerSponsorId="834" StateId="CRFSponsorAddressCreatedState" LocationId="5132" OpenTime="2018-02-12T16:27:50.41+03:00" SponsorNationality="" />
+               <CRFSADDCountriesrecords PageSize="-1" PageCount="1" PageNumber="1" TotalRecordsFetched="1">
+                  <CRFSADDCountries OwnerOrgId="29588" StateId="CountryModifiedState" Name="India" CreatedBy="MicroClear" LocationId="5132" UNCode="IN" LocationCode="IN" selected="" Description="India" LocalDescription="الهند" CountryCode="153" IsLocal="0" CountryNumber="15" LocationTypeId="1001" OpenTime="2018-02-12T16:27:50.44+03:00" City="" Ports="" OwnerLocId="" />
+               </CRFSADDCountriesrecords>
+            </CRFPassengerSponsorAddressrecords>
+         </CRFDetailsrecords>
+      </data>
+      <domaindata />
+      <Languages>
+         <Language id="ara" Name="Arabic" Direction="rtl" />
+         <Language id="eng" Name="English" Direction="ltr" />
+      </Languages>
+      <Insts LastSDOptions="0" SDStamp="(aa119a6c-5580-499b-8fc5-a28b7310a2e2)" IgnoreCache="0" />
+   </servicedocument>
+</XML>

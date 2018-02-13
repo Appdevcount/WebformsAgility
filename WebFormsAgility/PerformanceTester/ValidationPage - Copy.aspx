@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ValidationPage.aspx.cs" Inherits="WebFormsAgility.PerformanceTester.ValidationPage" EnableSessionState="True" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ValidationPage.aspx.cs" Inherits="WebFormsAgility.PerformanceTester.ValidationPage" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="ValidateData" runat="server" Text="Button" OnClick="ValidateData_Click" />
-            <asp:label ID="Status" runat="server" text="Label"></asp:label>
+            <asp:label ID="lblName" runat="server" text="Label"></asp:label>
         </div>
     </form>
 </body>

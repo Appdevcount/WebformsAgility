@@ -523,6 +523,8 @@
     <Content Include="Content\printStyle.css" />
     <Content Include="Content\Scripts\jquery-3.2.1.min.js" />
     <Content Include="Content\Scripts\safify.js" />
+    <Content Include="Data\SampleServiceDocument.xml" />
+    <Content Include="Data\ServiceDoc.xml" />
     <Content Include="Global.asax" />
     <Content Include="OrgUserAccounts.aspx" />
     <Content Include="PerformanceTester\ValidationPage.aspx" />
